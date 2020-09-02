@@ -5,14 +5,24 @@
     
 }
 
+.logo2 {
+    margin-top: 60px;
+    margin-left: 530px
+    
+}
+
 .maintitle {
     font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
+    margin-left: 200px;
+    color: #435c8f;
 }
 
 .maintitle2 {
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
+    color: #435c8f;
+      margin-left: 200px;
 }
 
 .background1 {
@@ -21,10 +31,108 @@
     background-color: #f8fcfd;
 }
 
+.background2 {
+    width: 100%;
+    height: 70px;
+    background-color: #f8fcfd;
+    margin-bottom: 50px;
+}
+
+
 nav {
     background-color: #4b9aca;
+    height: 60px;
 }
 
 .nav-link {
     color: #fff;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.nav-link:hover {
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.parallax {
+    background-image: url("../images/mindfit16.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100% !important;
+}
+
+.two {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.one {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+
+.three {
+    padding-left: 40px;
+}
+
+.box1 {
+    width: 100%;
+    height: 400px;
+     background-color: #4b9aca;
+}
+
+.box3 {
+    height: 600px;
+    width: 100%;
+    background-color: #f8fcfd;
+}
+
+.boxing {
+    border-radius: 6px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.subhead1 {
+    margin-left: 200px;
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.subhead2 {
+    margin-left: 180px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 40px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+
+}
+
+.subhead3 {
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #435c8f;
+    margin-left: 570px;
+}
+
+.subhead4 {
+    font-size: 17px;
+    margin-top: 30px;
+    font-family: 'Varela Round', sans-serif;
+    color: #435c8f;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+.button1 {
+    margin-left: 340px;
+    margin-top: 20px;
 }
