@@ -1,3 +1,38 @@
+.top-title {
+    border: none;
+     background-color: #f8fcfd;
+     width: 100%;
+     height: 150px;
+}
+
+.phone {
+    color: #435c8f;
+    font-size: 17px;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#phone {
+    color: #435c8f;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.email {
+    color: #435c8f;
+    font-size: 17px;
+    margin-right: 30px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#email {
+    color: #435c8f;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
 .logo {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -14,16 +49,17 @@
 .maintitle {
     font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
-    margin-left: 200px;
     color: #435c8f;
+    margin-top: 20px;
+   
 }
+
 
 .maintitle2 {
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
     color: #435c8f;
-    margin-left: 200px;
-   
+
 }
 
 .background1 {
@@ -159,6 +195,22 @@ nav {
 
 .button1:hover {
     margin-left: 340px;
+    margin-top: 20px;
+    background-color: #435c8f;
+    color: #f8fcfd;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.button3 {
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #f8fcfd;
+    color: #435c8f;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.button3:hover {
+    margin-left: 50px;
     margin-top: 20px;
     background-color: #435c8f;
     color: #f8fcfd;
@@ -449,10 +501,73 @@ nav {
 
   #map {
     height: 400px;
-    width: 400px;
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 220px;
   }
+
   html, body {
     height: 100%;
     margin: 0;
     padding: 0;
   }
+
+
+.largebox2 {
+    width: 70%;
+    height: 400px;
+    background-color: #4b9aca;
+    padding-top: 40px;
+    margin-left: 200px;
+    background: rgba(10, 0, 0, 0);
+}
+
+
+
+.formtitle {
+    font-size: 25px;
+    color: #fff;
+     font-family: 'Fjalla One', sans-serif;
+     padding-left: 60px;
+     padding-right: 60px;
+     text-align: center;
+}
+
+#fullname {
+    width: 60%;
+    height: 50px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#emailaddress {
+    width: 60%;
+    height: 50px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#description {
+    width: 60%;
+    height: 150px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.contactpic {
+   background: url("/images/contactpic3.png");
+  height: 1220px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+}
+}
+
