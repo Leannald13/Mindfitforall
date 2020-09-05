@@ -118,14 +118,14 @@ nav {
     color: #435c8f;
     font-family: 'Fjalla One', sans-serif;
     font-size: 25px;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .subhead6 {
     margin-left: 180px;
     color: #435c8f;
     font-size: 18px;
-    margin-top: 40px;
+    margin-top: 30px;
     font-family: 'Varela Round', sans-serif;
     text-align: center;
 
@@ -152,6 +152,35 @@ nav {
 .button1 {
     margin-left: 340px;
     margin-top: 20px;
+    background-color: #f8fcfd;
+    color: #435c8f;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.button1:hover {
+    margin-left: 340px;
+    margin-top: 20px;
+    background-color: #435c8f;
+    color: #f8fcfd;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.button2 {
+    margin-left: 390px;
+    margin-top: 20px;
+    background-color: #4b9aca;
+    color: #f8fcfd;
+    font-family: 'Fjalla One', sans-serif;
+    border: none;
+}
+
+.button2:hover {
+    margin-left: 390px;
+    margin-top: 20px;
+    background-color: #435c8f;
+    color: #f8fcfd;
+    font-family: 'Fjalla One', sans-serif;
+    border: none;
 }
 
 .title {
@@ -212,10 +241,6 @@ nav {
        
 		}
 
-    .carousel-inner  {
-        margin-bottom: 150px;
-    }
-
     li {
         list-style: none;
     }
@@ -261,9 +286,9 @@ nav {
 
 .services1 {
     background-color: #4b9aca;
-    height: 70px !important;
-    border-radius: 5px;
+    height: 80px !important;
     border-style: none;
+    border-radius: 3px;
     
 }
 
@@ -273,35 +298,36 @@ nav {
 }
 
 .services2 {
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     text-align: center;
-    margin-top: 5px;
 }
 
 .servicesimages {
     width: 400px !important;
     height: 400px !important;
+    border-radius: 3px;
+    border: none;
 }
 
 .servicescard {
     width: 400px;
-    height: 550px;
+    height: 460px;
     margin-left: 200px;
     margin-top: 50px;
-    box-shadow: 12px 10px #c1d1db;
+    box-shadow: 10px 12px 12px #4682B4;
     
     
 }
 
 .servicescard1 {
     width: 400px;
-    height: 550px;
+    height: 460px;
     margin-left: 130px;
     margin-top: 50px;
     margin-bottom: 80px;
     margin-right: 160px;
-    box-shadow: 12px 10px #c1d1db;
+    box-shadow: 10px 12px 12px #4682B4;
 }
 
 .servicesbackground {
@@ -313,7 +339,13 @@ nav {
     font-family: 'Fjalla One', sans-serif;
     color: #435c8f;
     margin-left: 630px;
+    padding-top: 100px;
+    background-color: #f8fcfd;
 
+}
+
+.servicesheading1 {
+     background-color: #f8fcfd;
 }
 
  .box7 {
@@ -338,6 +370,7 @@ nav {
         opacity: 0;
         transition: .5s ease;
         background-color: #4b9aca;
+        border-radius: 5px;
     }
 
  .box7:hover .overlay {
@@ -412,3 +445,14 @@ nav {
     font-family: 'Fjalla One', sans-serif;
     padding-top: 40px;
 }
+
+
+  #map {
+    height: 400px;
+    width: 400px;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }

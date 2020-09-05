@@ -48,38 +48,26 @@
   </div>
 </nav>
 <body>
-<div class="container-fluid parallax"></div>
-<div class="box1">
-<div class="mb-3">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="images/mindfit2.JPG" class="boxing" alt="boxing" width="300px" height="300px">
-    </div>
-    <div class="col-md-6">
-      <div class="card-body">
-      <p class="card-text subhead1">Welcome to MindFit for all</p>   
-        <p class="card-text subhead2">Overcoming challenges through fitness, CBT and mentoring</p> 
-        <button type="button" class="btn button1">Find out more</button>   
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<div class="box3">
-<img src="images/mindfitlogo.png" alt="logo" class="logo2" width="250px" height="200px">
-<p class="subhead3">Our Philosophy</p>
-<p class="subhead4">A not-for-profit organisation that supports children and young people to overcome their challenges through fitness, 
-CBT and mentoring. Science tells us that exercise directly improves our mental and emotional health and we passionately 
-believe that through this medium we can develop young peoples’ ability to use growth mindset which will impact on all 
-areas of their lives, ensuring better outcomes, academically and emotionally, both short and long term. 
-We want to instil the belief in young people that they are the architects of their own destinies.
-That they too can run marathons and set up their own businesses! We want to encourage the next generation to dream big 
-and have the motivation to work hard to achieve those dreams.</p>
-</div>
-<div class="carousel-inner">
-            <img src="images/homepage.png" alt="mainimage" width="100%" height="700px">
-            <div class="title">"The best guys ever, they truly do help people, give them a try, you definitely won’t regret it"<br> -Linda</div>
+    <form id="contactform" onsubmit="" method=""> <!-- Contact form. Form taken from Bootstrap and learned this from Code Institute lesson. See SendEmail.js for Javascript -->
+        <h4>We would love to discuss how we can support you or someone you know. Please call us, to arrange a meeting by phone or in person.</h4>
+        <div class="form-header">
+            <label for="fullname" class="label-name">Full Name</label>
+            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
         </div>
+        <div class="form-header">
+            <label for="emailaddress" class="label-email">E-mail</label>
+            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+        </div>
+        <div class="form-header">
+            <label for="description" class="label-description">How can we help?</label>
+            <textarea name="description" id="description" class="form-control " placeholder="Enter your enquiry " required></textarea>
+        </div>
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-red text-center" id="submitButton">Contact Us!</button>
+        </div>
+        <div>
+
+        <div id="map"></div>
 <footer>
  <h3 class="socialmedia">Follow us:</h3>
             <ul class="social-links">
@@ -100,11 +88,13 @@ and have the motivation to work hard to achieve those dreams.</p>
                 <p><small>© 2019 MindFit for All</small></p>
             </div>
         </footer>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPLMSL3UAk69yMh0j4OrPm-4X5Jhs-tHg&libraries=places&callback=initMap" async defer></script>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <script src="js/sendEmail.js"></script>
 </body>
