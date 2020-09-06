@@ -1,8 +1,8 @@
 .top-title {
     border: none;
-     background-color: #f8fcfd;
-     width: 100%;
-     height: 150px;
+    background-color: #f8fcfd !important;
+    width: 100%;
+    height: 150px;
 }
 
 .phone {
@@ -70,7 +70,7 @@
 
 nav {
     background-color: #4b9aca;
-    height: 60px;
+    height: 70px;
 }
 
 .nav-link {
@@ -191,6 +191,8 @@ nav {
     background-color: #f8fcfd;
     color: #435c8f;
     font-family: 'Fjalla One', sans-serif;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
 }
 
 .button1:hover {
@@ -199,6 +201,8 @@ nav {
     background-color: #435c8f;
     color: #f8fcfd;
     font-family: 'Fjalla One', sans-serif;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
 }
 
 .button3 {
@@ -207,6 +211,8 @@ nav {
     background-color: #f8fcfd;
     color: #435c8f;
     font-family: 'Fjalla One', sans-serif;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
 }
 
 .button3:hover {
@@ -215,6 +221,8 @@ nav {
     background-color: #435c8f;
     color: #f8fcfd;
     font-family: 'Fjalla One', sans-serif;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
 }
 
 .button2 {
@@ -224,6 +232,8 @@ nav {
     color: #f8fcfd;
     font-family: 'Fjalla One', sans-serif;
     border: none;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
 }
 
 .button2:hover {
@@ -233,6 +243,8 @@ nav {
     color: #f8fcfd;
     font-family: 'Fjalla One', sans-serif;
     border: none;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
 }
 
 .title {
@@ -333,14 +345,15 @@ nav {
 .blankspace {
     width: 100%;
     height: 50px;
-     background-color: #f8fcfd;
+    background-color: #f8fcfd;
 }
 
 .services1 {
     background-color: #4b9aca;
     height: 80px !important;
     border-style: none;
-    border-radius: 3px;
+    width: 400px;
+    border-radius: 4px;
     
 }
 
@@ -358,7 +371,6 @@ nav {
 .servicesimages {
     width: 400px !important;
     height: 400px !important;
-    border-radius: 3px;
     border: none;
 }
 
@@ -434,25 +446,25 @@ nav {
 
  .largebox {
         width: 100%;
-        background-color: #f8fcfd;
+        background-color: #f8fcfd !important;
         padding-top: 100px;
         height: 700px;
         
     }
 
-       .text {
-        color: white;
-        font-size: 15px;
-        font-family: 'Varela Round', sans-serif;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-        padding-top: 10px;
-    }
+ .text {
+    color: white;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 10px;
+}
 
      .alyssaimage {
         display: block;
@@ -569,5 +581,82 @@ nav {
   position: relative;
   padding-top: 100px;
 }
+
+
+.blogs {
+    height: 400px;
+    width: 400px;
 }
 
+.largebox5 {
+     background-color: #f8fcfd;
+     padding-top: 50px;
+     padding-left: 280px;
+     padding-bottom: 100px;
+}
+
+.blog-background {
+    background-color: #f8fcfd;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 10px 12px 12px #4682B4;
+    border: none;
+    
+}
+
+.blog-heading {
+    margin-left: 160px;
+    margin-top: 100px;
+    font-size: 25px;
+    color: #435c8f;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+.blog-author {
+    margin-left: 140px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #435c8f;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+.blog-date {
+    margin-left: 140px;
+    margin-top: 30px;
+    color: #435c8f;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+.button-blog {
+    margin-left: 270px;
+    margin-top: 20px;
+    background-color:  #4b9aca;
+    color: #f8fcfd;
+    font-family: 'Fjalla One', sans-serif;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+}
+
+.button-blog:hover {
+    margin-left: 270px;
+    margin-top: 20px;
+    background-color: #435c8f;
+    color: #f8fcfd;
+    font-family: 'Fjalla One', sans-serif;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+}
+
+.largebox7 {
+    width: 100%;
+    height: 100%;
+    background-color: #f8fcfd !important;
+}
+
+.largebox8 {
+    width: 80%;
+    background-color: pink;
+}
