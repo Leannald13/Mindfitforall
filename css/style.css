@@ -684,6 +684,20 @@ nav {
      margin-top: 30px;
 }
 
+.blog-subtitle1 {
+    color: #435c8f;
+     font-family: 'Fjalla One', sans-serif;
+     margin-left: 50px;
+     margin-top: 60px;
+}
+
+.blog-subtitle2 {
+    color: #435c8f;
+     font-family: 'Fjalla One', sans-serif;
+     margin-left: 120px;
+     margin-top: 60px;
+}
+
 .card-img-top {
     width: 300px !important;
 }
@@ -695,10 +709,13 @@ nav {
     margin-bottom: 30px;
 }
 
-.blog-author2 {
-    margin-top: 30px;
-    margin-left: 700px;
-    font-size: 17px;
-     color: #435c8f;
-     font-family: 'Varela Round', sans-serif;
+.largebox9 {
+    width: 90%;
+    height: 3800px;
+    background-color: #f8fcfd !important;
+    border-radius: 4px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 10px 12px 12px 10px #4682B4;
+    
 }
