@@ -313,6 +313,8 @@ nav {
     footer {
         background-color: #4b9aca;
         height: 170px;
+        padding: 0;
+        margin: 0;
     }
 
     .socialmedia {
@@ -651,12 +653,52 @@ nav {
 }
 
 .largebox7 {
-    width: 100%;
-    height: 100%;
     background-color: #f8fcfd !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
 }
 
 .largebox8 {
-    width: 80%;
-    background-color: pink;
+    width: 90%;
+    height: 2800px;
+    background-color: #f8fcfd !important;
+    border-radius: 4px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-shadow: 10px 12px 12px 10px #4682B4;
+    
+}
+
+.blog-text {
+    font-size: 17px;
+     color: #435c8f;
+     font-family: 'Varela Round', sans-serif;
+
+}
+
+.blog-subtitle {
+    color: #435c8f;
+     font-family: 'Fjalla One', sans-serif;
+     margin-left: 150px;
+     margin-top: 30px;
+}
+
+.card-img-top {
+    width: 300px !important;
+}
+
+.lucy-blog {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blog-author2 {
+    margin-top: 30px;
+    margin-left: 700px;
+    font-size: 17px;
+     color: #435c8f;
+     font-family: 'Varela Round', sans-serif;
 }
