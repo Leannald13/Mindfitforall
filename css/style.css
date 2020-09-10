@@ -84,12 +84,13 @@ nav {
 }
 
 .parallax {
-    background-image: url("../images/mindfit16.jpg");
+    background-image: url("../images/stockphoto8.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 400px;
     width: 100% !important;
+    padding-top: 500px;
 }
 
 .two {
@@ -688,12 +689,21 @@ nav {
 .blog-subtitle2 {
      color: #fff;
      font-family: 'Fjalla One', sans-serif;
-     font-size: 60px;
+     font-size: 70px;
      text-align: center;
-     margin-top: 160px;
+     margin-top: 130px;
      margin-left: 400px;
 
-     
+}
+
+.blog-subtitle3 {
+     color: #fff;
+     font-family: 'Fjalla One', sans-serif;
+     font-size: 70px;
+     text-align: center;
+     margin-top: 440px;
+     margin-left: 100px;
+
 }
 
 .card-img-top {
@@ -709,7 +719,7 @@ nav {
 
 .largebox9 {
     width: 90%;
-    height: 3900px;
+    height: 4200px;
     background-color: #f8fcfd !important;
     border-radius: 4px;
     padding-left: 80px;
@@ -739,19 +749,43 @@ nav {
 }
 
 .mid-blog1 {
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 100px;
     border: none;
+    margin-bottom: 30px;
+}
+
+.mid-blog4 {
+    width: 400px;
+    height: 300px;
+    margin-left: 400px;
+    border: none;
+    margin-bottom: 30px;
 }
 
 .mid-blog2 {
-    margin-left: 100px;
+    margin-left: 40px;
+    margin-top: 30px;
     font-size: 50px;
+    color: #435c8f;
+    padding-left: 30px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.mid-blog3 {
+    margin-left: 80px;
+    font-size: 35px;
+    color: #435c8f;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .mid-blogmain {
-     background-color: #e8eff6 !important;
+      background-color: #f8fcfd !important;
      border: none;
+     margin-top: 10px;
+     margin-bottom: 10px !important;
 }
