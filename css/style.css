@@ -5,6 +5,42 @@
     height: 150px;
 }
 
+.mainpage-card {
+    border: none;
+}
+
+.caption1 {
+    color: #435c8f;
+    font-size: 30px;
+    margin-right: 320px;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+}
+
+.caption2 {
+    color: #435c8f;
+    font-size: 30px;
+     margin-right: 320px;
+     margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.caption3 {
+    color: #435c8f;
+    font-size: 22px;
+    margin-right: 320px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.caption4 {
+    color: #435c8f;
+    font-size: 22px;
+    margin-right: 320px;
+    margin-bottom: 20px;
+}
+
 .phone {
     color: #435c8f;
     font-size: 17px;
@@ -84,7 +120,7 @@ nav {
 }
 
 .parallax {
-    background-image: url("../images/stockphoto8.jpg");
+    background-image: url("../images/mainpic2.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,21 +169,29 @@ nav {
 }
 
 .subhead1 {
-    margin-left: 200px;
+    margin-left: 90px;
     color: #fff;
     font-family: 'Fjalla One', sans-serif;
     font-size: 40px;
-    margin-top: 60px;
+    margin-top: 180px;
 }
 
 .subhead2 {
-    margin-left: 180px;
     color: #fff;
     font-size: 25px;
-    margin-top: 40px;
     font-family: 'Varela Round', sans-serif;
-    text-align: center;
+    padding-right: 50px;
+    margin-left: 60px;
+}
 
+
+.subhead10 {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+    padding-right: 50px;
+    margin-left: 176px;
+    line-height: 0.5;
 }
 
 .subhead5 {
@@ -187,8 +231,8 @@ nav {
 }
 
 .button1 {
-    margin-left: 340px;
-    margin-top: 20px;
+    margin-left: 240px;
+    margin-top: 40px;
     background-color: #f8fcfd;
     color: #435c8f;
     font-family: 'Fjalla One', sans-serif;
@@ -197,8 +241,8 @@ nav {
 }
 
 .button1:hover {
-    margin-left: 340px;
-    margin-top: 20px;
+    margin-left: 240px;
+    margin-top: 40px;
     background-color: #435c8f;
     color: #f8fcfd;
     font-family: 'Fjalla One', sans-serif;
@@ -285,9 +329,9 @@ nav {
 	    text-align: center;
         padding-left: 80px;
         padding-right: 80px;
-        margin-left: 80px;
-        margin-right: 140px;
-        margin-top: 120px;
+        margin-left: 10px;
+        margin-right: 390px;
+        margin-top: 200px;
         
 	}
 
@@ -300,9 +344,8 @@ nav {
 	    font-family: 'Fjalla One', sans-serif;
 	    font-size: 25px;
 	    text-align: center;
-        padding-left: 80px;
-        padding-right: 80px;
-        margin-left: 280px;
+        margin-left: 240px;
+        margin-top: 30px;
        
 		}
 
