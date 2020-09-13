@@ -7,6 +7,11 @@
 
 .mainpage-card {
     border: none;
+    
+}
+
+.newone2 {
+    height: 600px;
 }
 
 .caption1 {
@@ -201,21 +206,23 @@ nav {
 }
 
 .subhead5 {
-    margin-left: 360px;
+    margin-left: 950px;
     color: #435c8f;
     font-family: 'Fjalla One', sans-serif;
     font-size: 25px;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .subhead6 {
-    margin-left: 200px;
+    margin-left: 730px;
     color: #435c8f;
     font-size: 18px;
-    margin-top: 30px;
+    margin-top: 40px;
     font-family: 'Varela Round', sans-serif;
     text-align: center;
     padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
 
 }
 
@@ -278,7 +285,7 @@ nav {
 }
 
 .button2 {
-    margin-left: 390px;
+    margin-left: 990px;
     margin-top: 20px;
     background-color: #4b9aca;
     color: #f8fcfd;
@@ -286,11 +293,11 @@ nav {
     border: none;
     transition-duration: 0.4s;
     transition-timing-function: ease-in;
-    margin-bottom: 90px;
+  
 }
 
 .button2:hover {
-    margin-left: 390px;
+    margin-left: 990px;
     margin-top: 20px;
     background-color: #435c8f;
     color: #f8fcfd;
@@ -298,7 +305,6 @@ nav {
     border: none;
     transition-duration: 0.4s;
     transition-timing-function: ease-out;
-    margin-bottom: 90px;
 }
 
 .title {
@@ -332,15 +338,15 @@ nav {
 	    top: 80%;
 	    left: 20%;
 	    transform: translate(-50%, -180%);
-	    color: #435c8f;
+	    color: white;
 	    font-family: 'Varela Round', sans-serif;
 	    font-size: 18px;
 	    text-align: center;
         padding-left: 80px;
         padding-right: 80px;
         margin-left: 10px;
-        margin-right: 390px;
-        margin-top: 250px;
+        margin-right: 400px;
+        margin-top: 240px;
         
 	}
 
@@ -349,11 +355,11 @@ nav {
 	    top: -10%;
 	    left: 20%;
 	    transform: translate(-50%, -180%);
-	    color: #435c8f;
+	    color: white;
 	    font-family: 'Fjalla One', sans-serif;
 	    font-size: 25px;
 	    text-align: center;
-        margin-left: 240px;
+        margin-left: 210px;
         margin-top: 40px;
        
 		}
@@ -430,7 +436,7 @@ nav {
 }
 
 .servicesimages {
-    width: 400px !important;
+    width: 500px !important;
     height: 400px !important;
     border: none;
 }
@@ -460,12 +466,13 @@ nav {
 }
 
 .servicesheading {
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Fjalla One', sans-serif;
     color: #435c8f;
-    margin-left: 630px;
-    padding-top: 100px;
+    padding-left: 430px;
+    padding-top: 30px;
     background-color: #f8fcfd;
+    margin-bottom: 0;
 
 }
 
@@ -645,12 +652,31 @@ nav {
 
 .testimonial-back {
    background: url("/images/test-background2.png");
-  height: 1220px;
+  height: 1340px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 100px;
+}
+
+.services-first {
+   background: url("/images/servicesfirst.png");
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.services-second {
+   background: url("/images/servicessecond.png");
+  height: 670px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 
@@ -775,7 +801,7 @@ nav {
 }
 
 .card-img-top {
-    width: 300px !important;
+    width: 400px !important;
 }
 
 .lucy-blog {
@@ -874,77 +900,132 @@ nav {
 }
 
 .test-1 {
-    background-color: #f8fcfd;
-    color: #435c8f;
+    background-color: #4b9aca;
+    color: white;
     font-family: 'Varela Round', sans-serif;
-     height: 470px;
+     height: 520px;
      width: 400px;
      opacity: 0.8;
      margin-bottom: 50px;
      margin-left: 30px;
-      box-shadow: 10px 12px 12px #435c8f;
+    box-shadow: 10px 12px 12px #435c8f;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
 }
 
 .test-2 {
-    background-color: #f8fcfd;
-    color: #435c8f;
+    background-color: #4b9aca;
+    color: white;
     font-family: 'Varela Round', sans-serif;
-     height: 470px;
+     height: 520px;
      width: 400px;
      opacity: 0.8;
      margin-bottom: 50px;
      margin-left: 20px;
-      box-shadow: 10px 12px 12px #435c8f;
+    box-shadow: 10px 12px 12px #435c8f;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+
 }
 
 .test-3 {
-   background-color: #f8fcfd;
-   color: #435c8f;
+   background-color: #4b9aca;
+   color: white;
    font-family: 'Varela Round', sans-serif;
-   height: 470px;
+   height: 520px;
    width: 400px;
    opacity: 0.8;
    margin-bottom: 50px;
-    box-shadow: 10px 12px 12px #435c8f;
+   box-shadow: 10px 12px 12px #435c8f;
+   font-size: 18px;
+   text-align: center;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 60px;
 }
 
 .test-4 {
-  background-color: #f8fcfd !important;
-  color: #435c8f;
+  background-color: #4b9aca;
+  color: white;
   font-family: 'Varela Round', sans-serif;  
-  height: 470px;
+  height: 520px;
   width: 400px;
   opacity: 0.8;
-  margin-bottom: 50px;
    margin-left: 30px;
-    box-shadow: 10px 12px 12px #435c8f;
+  box-shadow: 10px 12px 12px #435c8f;
+  font-size: 18px;
+  text-align: center;
+  padding-left: 18px;
+    
 }
 
 .test-5 {
-  background-color: #f8fcfd;
-  color: #435c8f;
+  background-color: #4b9aca;
+  color: white;
   font-family: 'Varela Round', sans-serif;
-   height: 470px;
+   height: 520px;
    width: 400px;
    opacity: 0.8;
-   margin-bottom: 50px;
     margin-left: 20px;
-     box-shadow: 10px 12px 12px #435c8f;
+    box-shadow: 10px 12px 12px #435c8f;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 
 .test-6 {
-  background-color: #f8fcfd;
-  color: #435c8f;
+  background-color: #4b9aca;
+  color: white;
   font-family: 'Varela Round', sans-serif;
-   height: 470px;
+   height: 520px;
    width: 400px;
    opacity: 0.8;
-   margin-bottom: 50px;
     box-shadow: 10px 12px 12px #435c8f;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    margin-bottom: 30px;
+    
  
 }
 
 .quotemarks {
-    margin-left: 50px;
+    margin-left: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.quotemarks2 {
+    margin-left: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 70px;
+}
+
+.quotemarks3 {
+    margin-left: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+.quotemarks4 {
+    margin-left: 20px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
 }
 
