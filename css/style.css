@@ -662,7 +662,7 @@ nav {
 
 .services-first {
    background: url("/images/servicesfirst.png");
-  height: 550px;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1029,3 +1029,14 @@ nav {
     border-radius: 50%;
 }
 
+.meettheteam {
+    font-size: 100px;
+    color: white;
+    margin-left: 370px;
+    margin-top: 150px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.meettheteam-card {
+    border: none;
+}
