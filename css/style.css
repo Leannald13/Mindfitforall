@@ -544,16 +544,54 @@ li {
 
  .text {
     color: white;
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Varela Round', sans-serif;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 55%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    padding-top: 10px;
+    margin-left: 230px;
+}
+
+ .text3 {
+    color: white;
+    font-size: 17px;
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 230px;
+}
+
+ .text4 {
+    color: white;
+    font-size: 17px;
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    top: 57%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 230px;
+}
+
+.text2 {
+    color: white;
+    font-size: 30px;
+     font-family: 'Fjalla One', sans-serif;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 230px;
+    margin-top: 60px;
 }
 
      .alyssaimage {
@@ -1125,6 +1163,23 @@ li {
   box-shadow: 10px 12px 12px #435c8f;
 }
 
+.box8 {
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 100px;
+  box-shadow: 10px 12px 12px #435c8f;
+  float: left;
+  position: relative;
+  width: 35%;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 140px;
+  height: 530px;
+
+}
+
+
 /* This container is needed to position the front and back side */
 .flip-box-inner {
   position: relative;
@@ -1135,13 +1190,36 @@ li {
   transform-style: preserve-3d;
 }
 
+.box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+}
+
+
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-box:hover .flip-box-inner {
   transform: rotateY(180deg);
 }
 
+.box8:hover .box-inner {
+  transform: rotateY(180deg);
+}
+
 /* Position the front and back side */
 .flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  font-size: 30px;
+}
+
+.box-front, .box-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1156,12 +1234,25 @@ li {
   color: black;
 }
 
+.box-front {
+  background-color: #4b9aca;
+  color: black;
+}
+
 /* Style the back side */
 .flip-box-back {
   background-color: #4b9aca;
   color: white;
   transform: rotateY(180deg);
   height: 420px;
+  font-size: 20px;
+}
+
+.box-back {
+  background-color: #4b9aca;
+  color: white;
+  transform: rotateY(180deg);
+  height: 530px;
   font-size: 20px;
 }
 
