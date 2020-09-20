@@ -122,11 +122,13 @@ nav {
 .nav-link {
     color: #fff;
     font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
 }
 
 .nav-link:hover {
     color: #fff;
     font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
 }
 
 .parallax {
@@ -248,12 +250,13 @@ nav {
 
 .button1 {
     margin-left: 240px;
-    margin-top: 40px;
+    margin-top: 30px;
     background-color: #f8fcfd;
     color: #435c8f;
     font-family: 'Fjalla One', sans-serif;
     transition-duration: 0.4s;
     transition-timing-function: ease-in;
+    font-size: 18px;
 }
 
 .button1:hover {
@@ -268,12 +271,13 @@ nav {
 
 .button3 {
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 20px;;
     background-color: #f8fcfd;
     color: #435c8f;
     font-family: 'Fjalla One', sans-serif;
     transition-duration: 0.4s;
     transition-timing-function: ease-in;
+    font-size: 18px;
 }
 
 .button3:hover {
@@ -284,6 +288,7 @@ nav {
     font-family: 'Fjalla One', sans-serif;
     transition-duration: 0.4s;
     transition-timing-function: ease-out;
+    font-size: 18px;
 }
 
 .button2 {
@@ -316,7 +321,7 @@ nav {
 	    font-family: 'Fjalla One', sans-serif;
 	    font-size: 25px;
 	    text-align: center;
-        margin-left: 670px;
+        margin-left: 680px;
         
 		}
 
@@ -327,7 +332,7 @@ nav {
 	    font-family: 'Fjalla One', sans-serif;
 	    font-size: 25px;
 	    text-align: center;
-        margin-left: 670px;
+        margin-left: 680px;
         margin-top: 120px;
 	}
 
@@ -338,7 +343,7 @@ nav {
 	    font-family: 'Fjalla One', sans-serif;
 	    font-size: 25px;
 	    text-align: center;
-        margin-left: 670px;
+        margin-left: 680px;
         margin-top: 120px;
 	}
 
@@ -349,7 +354,7 @@ nav {
 	    font-family: 'Fjalla One', sans-serif;
 	    font-size: 25px;
 	    text-align: center;
-        margin-left: 670px;
+        margin-left: 690px;
         margin-bottom: 50px;
 		}
 
@@ -442,9 +447,10 @@ li {
 }
 
 .services2 {
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     text-align: center;
+    margin-top: 10px;
 }
 
 .servicesimages {
@@ -552,7 +558,7 @@ li {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-left: 230px;
+    margin-left: 250px;
 }
 
  .text3 {
@@ -565,7 +571,7 @@ li {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-left: 230px;
+    margin-left: 250px;
 }
 
  .text4 {
@@ -578,7 +584,7 @@ li {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-left: 230px;
+    margin-left: 250px;
 }
 
 .text2 {
@@ -590,13 +596,13 @@ li {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-left: 230px;
+    margin-left: 250px;
     margin-top: 60px;
 }
 
      .alyssaimage {
         display: block;
-        width: 100%;
+        width: 102%;
         height: 550px;
         padding-bottom: 20px;
         border-radius: 4px;
@@ -605,7 +611,7 @@ li {
 
      .simonimage {
         display: block;
-        width: 100%;
+        width: 102%;
         height: 550px;
         padding-bottom: 20px;
         border-radius: 4px;
@@ -614,7 +620,7 @@ li {
 
      .peterimage {
         display: block;
-        width: 100%;
+        width: 102%;
         height: 550px;
         padding-bottom: 20px;
         border-radius: 4px;
@@ -623,7 +629,7 @@ li {
 
      .jessimage {
         display: block;
-        width: 100%;
+        width: 102%;
         height: 550px;
         padding-bottom: 20px;
         border-radius: 4px;
@@ -643,7 +649,9 @@ li {
     height: 400px;
     width: 800px;
     margin-left: 300px;
-    margin-top: 220px;
+    margin-top: 290px;
+    margin-bottom: 100px;
+
   }
 
   html, body {
@@ -665,16 +673,15 @@ li {
 
 
 .formtitle {
-    font-size: 30px;
+    font-size: 35px;
     color: #fff;
      font-family: 'Fjalla One', sans-serif;
      padding-left: 60px;
      padding-right: 60px;
      text-align: center;
-     background-color: rgb(0,0,0); /* Fallback color */
-     background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
-     width: 100%;
+     padding-top: 10px;
 }
+
 
 #fullname {
     width: 60%;
@@ -704,13 +711,14 @@ li {
 }
 
 .contactpic {
-   background: url("/images/contactpic5.png");
+   background: url("/images/contactpic6.png");
   height: 1220px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 100px;
+ 
 }
 
 .alyssaandsimon {
@@ -727,7 +735,7 @@ li {
     color: white;
     font-size: 22px;
     margin-top: 450px;
-    margin-left: 220px;
+    margin-left: 200px;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -785,12 +793,12 @@ li {
 
 .blogs {
     height: 400px;
-    width: 400px;
+    width: 500px;
 }
 
 .blogs2 {
     height: 420px;
-    width: 400px;
+    width: 500px;
 }
 
 .largebox5 {
@@ -806,12 +814,14 @@ li {
     margin-bottom: 100px;
     box-shadow: 10px 12px 12px #4682B4;
     border: none;
+    width: 820px;
+    margin-right: 100px;
     
 }
 
 .blog-heading {
-    margin-left: 160px;
-    margin-top: 100px;
+    margin-left: 210px;
+    margin-top: 60px;
     font-size: 25px;
     color: #435c8f;
     font-family: 'Fjalla One', sans-serif;
@@ -819,7 +829,7 @@ li {
 }
 
 .blog-author {
-    margin-left: 140px;
+    margin-left: 210px;
     margin-top: 30px;
     font-size: 18px;
     color: #435c8f;
@@ -828,7 +838,15 @@ li {
 }
 
 .blog-date {
-    margin-left: 140px;
+    margin-left: 170px;
+    margin-top: 30px;
+    color: #435c8f;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+.blog-date2 {
+    margin-left: 190px;
     margin-top: 30px;
     color: #435c8f;
     font-family: 'Varela Round', sans-serif;
@@ -836,25 +854,48 @@ li {
 }
 
 .button-blog {
-    margin-left: 270px;
+    margin-left: 290px;
     margin-top: 20px;
     background-color:  #4b9aca;
     color: #f8fcfd;
     font-family: 'Fjalla One', sans-serif;
     transition-duration: 0.4s;
     transition-timing-function: ease-in;
+    font-size: 18px;
 }
 
 .button-blog:hover {
-    margin-left: 270px;
+    margin-left: 290px;
     margin-top: 20px;
     background-color: #435c8f;
     color: #f8fcfd;
     font-family: 'Fjalla One', sans-serif;
     transition-duration: 0.4s;
     transition-timing-function: ease-out;
+    font-size: 18px;
 }
 
+.button-blog1 {
+    margin-left: 280px;
+    margin-top: 20px;
+    background-color:  #4b9aca;
+    color: #f8fcfd;
+    font-family: 'Fjalla One', sans-serif;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+    font-size: 18px;
+}
+
+.button-blog1:hover {
+    margin-left: 280px;
+    margin-top: 20px;
+    background-color: #435c8f;
+    color: #f8fcfd;
+    font-family: 'Fjalla One', sans-serif;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+    font-size: 18px;
+}
 
 .largebox8 {
     width: 90%;
@@ -893,8 +934,18 @@ li {
      font-family: 'Fjalla One', sans-serif;
      font-size: 70px;
      text-align: center;
-     margin-top: 130px;
-     margin-left: 400px;
+     margin-top: 280px;
+     margin-left: 350px;
+
+}
+
+.blog-subtitle4 {
+     color: #fff;
+     font-family: 'Fjalla One', sans-serif;
+     font-size: 70px;
+     text-align: center;
+     margin-top: 70px;
+     margin-left: 350px;
 
 }
 
@@ -906,6 +957,13 @@ li {
      margin-top: 440px;
      margin-left: 60px;
 
+}
+
+.blog-subtitle5 {
+     color: #fff;
+     font-family: 'Fjalla One', sans-serif;
+     font-size: 70px;
+     text-align: center;
 }
 
 .card-img-top {
@@ -927,11 +985,62 @@ li {
     padding-left: 80px;
     padding-right: 80px;
     box-shadow: 10px 12px 12px 10px #4682B4;
-    margin-top: 100px;
     padding-top: 50px;
     margin-left: 70px;
     margin-bottom: 70px;
     
+}
+
+.largebox13 {
+    width: 90%;
+    height: 3650px;
+    background-color: #f8fcfd !important;
+    border-radius: 4px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 10px 12px 12px 10px #4682B4;
+    padding-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+
+.largebox14 {
+    width: 90%;
+    height: 4500px;
+    background-color: #f8fcfd !important;
+    border-radius: 4px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 10px 12px 12px 10px #4682B4;
+    padding-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+
+.largebox15 {
+    width: 90%;
+    height: 3000px;
+    background-color: #f8fcfd !important;
+    border-radius: 4px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 10px 12px 12px 10px #4682B4;
+    padding-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+
+.largebox16 {
+    width: 90%;
+    height: 2750px;
+    background-color: #f8fcfd !important;
+    border-radius: 4px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 10px 12px 12px 10px #4682B4;
+    padding-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 70px;
 }
 
 .largebox20 {
@@ -966,12 +1075,57 @@ li {
 }
 
 .mid-blog1 {
-    width: 350px;
-    height: 250px;
+    width: 370px;
+    height: 350px;
     margin-top: 30px;
     margin-left: 100px;
     border: none;
     margin-bottom: 30px;
+}
+
+.mid-blog6 {
+    width: 420px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.mid-blog14 {
+    width: 470px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.mid-blog15 {
+    width: 500px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.mid-blog10 {
+    width: 460px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.mid-blog7 {
+    width: 430px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border: none;
+    margin-bottom: 40px;
 }
 
 .mid-blog4 {
@@ -983,7 +1137,47 @@ li {
 }
 
 .mid-blog2 {
-    margin-left: 40px;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 50px;
+    color: #435c8f;
+    padding-left: 30px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.mid-blog8 {
+    margin-left: 130px;
+    margin-top: 70px;
+    font-size: 50px;
+    color: #435c8f;
+    padding-left: 30px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.mid-blog9 {
+    margin-left: 70px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: #435c8f;
+    padding-left: 30px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.mid-blog17 {
+    margin-left: 140px;
+    margin-bottom: 40px;
+    font-size: 35px;
+    color: #435c8f;
+    padding-left: 30px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.mid-blog5 {
+    margin-left: 70px;
     margin-top: 30px;
     font-size: 50px;
     color: #435c8f;
@@ -995,6 +1189,25 @@ li {
 .mid-blog3 {
     margin-left: 80px;
     font-size: 35px;
+    color: #435c8f;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.mid-blog12 {
+    margin-left: 80px;
+    margin-top: 60px;
+    font-size: 40px;
+    color: #435c8f;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.mid-blog13 {
+    margin-left: 130px;
+    padding-left: 40px;
+    margin-top: 40px;
+    font-size: 40px;
     color: #435c8f;
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
@@ -1154,13 +1367,13 @@ li {
 
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
-  background-color: transparent;
+  background-color: #f8fcfd;
   width: 400px;
-  height: 420px;
-  border: 1px solid #f1f1f1;
+  height: 450px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   margin-bottom: 100px;
   box-shadow: 10px 12px 12px #435c8f;
+  border-radius: 10px;
 }
 
 .box8 {
@@ -1221,7 +1434,7 @@ li {
 
 .box-front, .box-back {
   position: absolute;
-  width: 100%;
+  width: 102%;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
@@ -1231,12 +1444,11 @@ li {
 /* Style the front side */
 .flip-box-front {
   background-color: #4b9aca;
-  color: black;
+  border-radius: 10px;
 }
 
 .box-front {
   background-color: #4b9aca;
-  color: black;
 }
 
 /* Style the back side */
@@ -1244,8 +1456,9 @@ li {
   background-color: #4b9aca;
   color: white;
   transform: rotateY(180deg);
-  height: 420px;
+  height: 450px;
   font-size: 20px;
+
 }
 
 .box-back {
@@ -1421,4 +1634,9 @@ li {
 
 ::placeholder {
     color:#435c8f;
+}
+
+.largebox17 {
+    background-color: #f8fcfd;
+    padding-top: 100px;
 }
