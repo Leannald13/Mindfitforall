@@ -504,12 +504,13 @@ li {
  .box7 {
         float: left;
         position: relative;
-        width: 30%;
+        width: 35%;
         text-align: center;
         border-radius: 10px;
         box-shadow: 10px 12px 12px #4682B4;
-        margin-left: 180px;
+        margin-left: 140px;
         height: 530px;
+
     }
 
  .overlay {
@@ -536,7 +537,7 @@ li {
  .largebox {
         width: 100%;
         background-color: #f8fcfd !important;
-        padding-top: 100px;
+        padding-top: 130px;
         height: 700px;
         
     }
@@ -626,12 +627,15 @@ li {
 
 
 .formtitle {
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
      font-family: 'Fjalla One', sans-serif;
      padding-left: 60px;
      padding-right: 60px;
      text-align: center;
+     background-color: rgb(0,0,0); /* Fallback color */
+     background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+     width: 100%;
 }
 
 #fullname {
@@ -669,6 +673,24 @@ li {
   background-size: cover;
   position: relative;
   padding-top: 100px;
+}
+
+.alyssaandsimon {
+   background: url("/images/teambackground.png");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+}
+
+.teambackground-text {
+    color: white;
+    font-size: 22px;
+    margin-top: 450px;
+    margin-left: 220px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 
@@ -1125,6 +1147,7 @@ li {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  font-size: 30px;
 }
 
 /* Style the front side */
@@ -1139,6 +1162,7 @@ li {
   color: white;
   transform: rotateY(180deg);
   height: 420px;
+  font-size: 20px;
 }
 
 .testimonial-carousel {
@@ -1289,8 +1313,21 @@ li {
     height: 500px;
 }
 
-.alyssaandsimon {
-    margin: 0;
-    padding: 0;
+.flipbox-text {
+    color: white;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif; 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 70px;
+}
 
+.blankspace80 {
+     background-color: #f8fcfd;
+     height: 100px;
+     width: 100%;
+}
+
+::placeholder {
+    color:#435c8f;
 }
