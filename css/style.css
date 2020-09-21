@@ -962,7 +962,7 @@ li {
 .blog-subtitle5 {
      color: #435c8f;
      font-family: 'Fjalla One', sans-serif;
-     font-size: 60px;
+     font-size: 50px;
      text-align: center;
      margin-bottom: 30px;
 }
@@ -970,7 +970,7 @@ li {
 .blog-subtitle80 {
      color: #435c8f;
      font-family: 'Fjalla One', sans-serif;
-     font-size: 50px;
+     font-size: 40px;
      text-align: center;
      margin-bottom: 30px;
 }
@@ -1194,7 +1194,7 @@ li {
 .mid-blog35 {
     margin-left: 90px;
     margin-top: 70px;
-    font-size: 50px;
+    font-size: 40px;
     color: #435c8f;
     padding-left: 70px;
     text-align: center;
@@ -1204,7 +1204,7 @@ li {
 .mid-blog30 {
     margin-left: 40px;
     margin-top: 40px;
-    font-size: 50px;
+    font-size: 40px;
     color: #435c8f;
     padding-left: 40px;
     text-align: center;
@@ -1213,8 +1213,8 @@ li {
 
 .mid-blog31 {
     margin-left: 40px;
-    margin-top: 35px;
-    font-size: 50px;
+    margin-top: 80px;
+    font-size: 40px;
     color: #435c8f;
     padding-left: 40px;
     text-align: center;
@@ -1222,9 +1222,9 @@ li {
 }
 
 .mid-blog8 {
-    margin-left: 130px;
-    margin-top: 30px;
-    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 60px;
+    font-size: 40px;
     color: #435c8f;
     padding-left: 30px;
     text-align: center;
@@ -1244,6 +1244,7 @@ li {
 
 .mid-blog17 {
     margin-left: 140px;
+    margin-top: 40px;
     margin-bottom: 40px;
     font-size: 35px;
     color: #435c8f;
@@ -1254,7 +1255,8 @@ li {
 
 .mid-blog5 {
     margin-left: 70px;
-    font-size: 50px;
+    margin-top: 50px;
+    font-size: 40px;
     color: #435c8f;
     padding-left: 30px;
     text-align: center;
@@ -1716,4 +1718,35 @@ li {
 .largebox17 {
     background-color: #f8fcfd;
     padding-top: 100px;
+}
+
+.bottom-blogs {
+    height: 270px;
+    width: 350px;
+    background-color: #f8fcfd;
+}
+
+.bottom-blogs2 {
+    background-color: #f8fcfd;
+}
+
+.card-deck2 {
+    width: 1146px;
+    height: 420px;
+    margin-left: 100px;
+}
+
+.largebox100 {
+    background-color: #f8fcfd;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    height: 600px;
+}
+
+.bottom-blog-text {
+    text-align: center;
+     color: #435c8f;
+     font-size: 20px;
+     font-family: 'Varela Round', sans-serif; 
+     font-weight: bold;
 }
