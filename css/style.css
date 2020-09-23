@@ -1536,6 +1536,7 @@ li {
   transform: rotateY(180deg);
   height: 450px;
   font-size: 20px;
+  border-radius: 10px;
 
 }
 
@@ -1718,29 +1719,40 @@ li {
 .largebox17 {
     background-color: #f8fcfd;
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .bottom-blogs {
-    height: 270px;
-    width: 350px;
-    background-color: #f8fcfd;
+    height: 250px;
+    width: 310px;
+    background-color:#4b9aca;
+    margin-left: 60px;
+    
+
+}
+
+.bottom {
+    border-width: 5px;
+    border-color: red;
+}
+
+.col {
+    flex-grow: 0;
+}
+
+.blog-cards {
+    width: 300px;
 }
 
 .bottom-blogs2 {
     background-color: #f8fcfd;
 }
 
-.card-deck2 {
-    width: 1146px;
-    height: 420px;
-    margin-left: 100px;
-}
 
 .largebox100 {
-    background-color: #f8fcfd;
-    padding-top: 80px;
-    padding-bottom: 40px;
-    height: 600px;
+    background-color:#4b9aca;
+    padding-top: 50px;
+    height: 500px;
 }
 
 .bottom-blog-text {
@@ -1749,4 +1761,155 @@ li {
      font-size: 20px;
      font-family: 'Varela Round', sans-serif; 
      font-weight: bold;
+     margin-left: 110px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+}
+
+.bottom-blog-text2 {
+    text-align: center;
+     color: #435c8f;
+     font-size: 20px;
+     font-family: 'Varela Round', sans-serif; 
+     font-weight: bold;
+     margin-left: 115px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+}
+
+.blog-slide-button {
+    margin-left: 145px;
+    margin-top: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #435c8f;
+    color: white;
+    font-size: 18px;
+}
+
+.blog-slide-button:hover {
+    margin-left: 145px;
+    margin-top: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #4b9aca;
+    color: white;
+    font-size: 18px;
+}
+
+.blog-slide-button2 {
+    margin-left: 135px;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #435c8f;
+    color: white;
+    font-size: 18px;
+}
+
+.blog-slide-button2:hover {
+    margin-left: 135px;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #4b9aca;
+    color: white;
+    font-size: 18px;
+}
+
+.blog-slide-button3 {
+    margin-left: 140px;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #435c8f;
+    margin-top: 45px;
+    color: white;
+    font-size: 18px;
+}
+
+.blog-slide-button3:hover {
+    margin-left: 140px;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #4b9aca;
+    margin-top: 45px;
+    color: white;
+    font-size: 18px;
+}
+
+.blog-row-title {
+    font-size: 15px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #435c8f;
+    text-align: center;
+    padding-left: 150px;
+    border: none;
+    background-color: #f8fcfd;
+}
+
+.blog200 {
+    background-color: #4b9aca;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 110px;
+}
+
+.blog200:hover {
+    background-color: #4b9aca;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 110px;
+    text-decoration: underline;
+}
+
+
+.blog201 {
+    background-color: #4b9aca;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 120px;
+}
+
+.blog201:hover {
+    background-color: #4b9aca;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 120px;
+    text-decoration: underline;
+}
+
+
+.blog202 {
+    background-color: #4b9aca;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 140px;
+}
+
+.blog202:hover {
+    background-color: #4b9aca;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 140px;
+    text-decoration: underline;
+}
+
+.latestblogs {
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #f8fcfd;
+    margin-left: 600px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+
 }
