@@ -142,8 +142,9 @@ nav {
 }
 
 .two {
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 60px;
 }
 
 .one {
@@ -1076,6 +1077,7 @@ li {
     margin-bottom: 50px;
     opacity: 0.9;
      background-color: #f8fcfd !important;
+     margin-left: 50px;
 }
 
 .rickcard {
