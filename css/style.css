@@ -483,6 +483,7 @@ li {
 
 .servicesbackground {
     background-color: #f8fcfd;
+    padding-bottom: 30px;
 
 }
 
@@ -806,7 +807,7 @@ li {
      background-color: #f8fcfd;
      padding-top: 50px;
      padding-left: 280px;
-     padding-bottom: 100px;
+     padding-bottom: 140px;
 }
 
 .blog-background {
@@ -1003,7 +1004,7 @@ li {
 
 .largebox13 {
     width: 90%;
-    height: 3690px;
+    height: 3870px;
     background-color: #f8fcfd !important;
     border-radius: 4px;
     padding-left: 80px;
@@ -1029,7 +1030,7 @@ li {
 
 .largebox15 {
     width: 90%;
-    height: 3130px;
+    height: 3170px;
     background-color: #f8fcfd !important;
     border-radius: 4px;
     padding-left: 80px;
@@ -1042,7 +1043,7 @@ li {
 
 .largebox16 {
     width: 90%;
-    height: 2900px;
+    height: 2910px;
     background-color: #f8fcfd !important;
     border-radius: 4px;
     padding-left: 80px;
@@ -1679,6 +1680,39 @@ li {
      
 }
 
+
+.backtoblogs {
+    background-color: #435c8f;
+    width: 100px;
+    height: 40px;
+     font-family: 'Fjalla One', sans-serif;
+     font-size: 17px;
+     color: #f8fcfd;
+     margin-left: 60px;
+     padding-top: 7px;
+     transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    margin-top: 60px;
+}
+
+.backtoblogs:hover {
+    background-color: #4b9aca;
+    width: 100px;
+    height: 40px;
+     font-family: 'Fjalla One', sans-serif;
+     font-size: 17px;
+     color: #f8fcfd;
+     margin-left: 60px;
+     padding-top: 7px;
+     transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    margin-top: 60px;
+}
+
+.fa-chevron-left {
+    padding-right: 10px;
+}
+
 .objective-card3 {
      background-color: #4b9aca;
      border: none;
@@ -1791,7 +1825,7 @@ li {
 .largebox100 {
     background-color:#4b9aca;
     padding-top: 50px;
-    height: 500px;
+    height: 530px;
 }
 
 .bottom-blog-text {
