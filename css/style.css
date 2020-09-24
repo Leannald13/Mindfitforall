@@ -1650,7 +1650,7 @@ li {
 
 .services-contact {
     background-color: #4b9aca;
-    height: 120px;
+    height: 130px;
 }
 
 .services-contact1 {
@@ -1664,6 +1664,7 @@ li {
      padding-top: 7px;
      transition-duration: 0.4s;
     transition-timing-function: ease-in;
+    margin-top: 10px;
 }
 
 .services-contact1:hover {
@@ -1719,6 +1720,7 @@ li {
      height: 350px;
      padding-left: 30px;
      padding-right: 20px;
+     margin-left: 100px;
 }
 .objective-card4 {
      background-color: #4b9aca;
