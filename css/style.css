@@ -371,7 +371,7 @@ nav {
 
 .fa-check {
     margin-right: 10px;
-    color: #435c8f !important;
+    color: white !important;
 }
 
 li {
@@ -451,7 +451,7 @@ li {
     font-size: 20px;
     color: #fff;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .servicesimages {
@@ -497,8 +497,8 @@ li {
     font-size: 50px;
     font-family: 'Fjalla One', sans-serif;
     color: #435c8f;
-    padding-left: 430px;
-    padding-top: 10px;
+    padding-left: 400px;
+    padding-top: 40px;
     background-color: #f8fcfd;
     margin-bottom: 0;
 
@@ -1575,10 +1575,10 @@ li {
 
 .bg-image {
   /* The image used */
-  background-image: url("/images/carousel8.png");
+  background-image: url("/images/carousel102.png");
   filter: blur(8px);
   -webkit-filter: blur(8px);
-   height: 450px;
+   height: 550px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1642,55 +1642,92 @@ li {
 }
 
 .objective-background {
-    background-color: #f8fcfd;
+    background-color: #4b9aca;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
+}
 
+.services-contact {
+    background-color: #4b9aca;
+    height: 120px;
+}
+
+.services-contact1 {
+    background-color: #f8fcfd;
+    width: 130px;
+    height: 45px;
+     font-family: 'Fjalla One', sans-serif;
+     font-size: 20px;
+     color: #435c8f;
+     margin-left: 600px;
+     padding-top: 7px;
+     transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+}
+
+.services-contact1:hover {
+    background-color: #435c8f;
+    width: 130px;
+    height: 45px;
+     font-family: 'Fjalla One', sans-serif; 
+     font-size: 20px;
+     color: #f8fcfd;
+     margin-left: 600px;
+     padding-top: 7px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+     
 }
 
 .objective-card3 {
-     background-color: #f8fcfd;
+     background-color: #4b9aca;
      border: none;
      height: 350px;
+     padding-left: 30px;
+     padding-right: 20px;
 }
 .objective-card4 {
-     background-color: #f8fcfd;
+     background-color: #4b9aca;
      border: none;
      height: 350px;
+     padding-right: 40px;
 }
 
 .objective-title {
     font-size: 30px;
     font-family: 'Fjalla One', sans-serif;
-    color: #435c8f;
+    color: white;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 230px;
+    margin-left: 210px;
 }
 
 
 .reach-title {
     font-size: 30px;
     font-family: 'Fjalla One', sans-serif;
-    color: #435c8f;
+    color: white;
     margin-top: 20px;
-    margin-left: 230px;
+    margin-left: 160px;
     margin-bottom: 20px;
 }
 
 
 .objective-texts {
-    color: #435c8f;
+    color: white;
     font-size: 19px;
     font-family: 'Varela Round', sans-serif; 
+    padding-right: 50px;
+    margin-left: 50px;
 
 }
 
 .objective-texts1 {
-    color: #435c8f;
+    color: white;
     font-size: 19px;
     font-family: 'Varela Round', sans-serif; 
-    margin-left: 70px;
+    margin-left: 40px;
+    padding-right: 70px;
 }
 
 .box30 {
